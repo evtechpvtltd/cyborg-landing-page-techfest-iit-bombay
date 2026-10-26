@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="1020" viewBox="0 0 920 1020" fill="none">
+ <defs>
+  <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(500 454) rotate(90) scale(490 400)" gradientUnits="userSpaceOnUse"><stop stop-color="#CFFF43" stop-opacity=".21"/><stop offset=".54" stop-color="#71DF52" stop-opacity=".064"/><stop offset="1" stop-color="#CFFF43" stop-opacity="0"/></radialGradient>
+  <linearGradient id="shell" x1="292" y1="120" x2="652" y2="752" gradientUnits="userSpaceOnUse"><stop stop-color="#48535A"/><stop offset=".2" stop-color="#131E21"/><stop offset=".49" stop-color="#63716D"/><stop offset=".71" stop-color="#172023"/><stop offset="1" stop-color="#060C10"/></linearGradient>
+  <linearGradient id="face" x1="400" y1="250" x2="670" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#596863"/><stop offset=".21" stop-color="#1B2A29"/><stop offset=".43" stop-color="#3C4945"/><stop offset=".73" stop-color="#121C1C"/><stop offset="1" stop-color="#6B7770"/></linearGradient>
+  <linearGradient id="forehead" x1="363" y1="201" x2="630" y2="416" gradientUnits="userSpaceOnUse"><stop stop-color="#73847B"/><stop offset=".42" stop-color="#222E2E"/><stop offset=".8" stop-color="#10191B"/><stop offset="1" stop-color="#4B5C58"/></linearGradient>
+  <linearGradient id="neck" x1="420" y1="677" x2="600" y2="986" gradientUnits="userSpaceOnUse"><stop stop-color="#596862"/><stop offset=".37" stop-color="#0D1618"/><stop offset=".72" stop-color="#233331"/><stop offset="1" stop-color="#030607"/></linearGradient>
+  <linearGradient id="armor" x1="202" y1="780" x2="708" y2="1005" gradientUnits="userSpaceOnUse"><stop stop-color="#273630"/><stop offset=".34" stop-color="#52635A"/><stop offset=".56" stop-color="#162324"/><stop offset="1" stop-color="#0A1113"/></linearGradient>
+  <linearGradient id="panel" x1="356" y1="392" x2="572" y2="580" gradientUnits="userSpaceOnUse"><stop stop-color="#2F413D"/><stop offset=".48" stop-color="#0B1518"/><stop offset="1" stop-color="#364641"/></linearGradient>
+  <linearGradient id="edge" x1="379" y1="220" x2="614" y2="746" gradientUnits="userSpaceOnUse"><stop stop-color="#CEFF5A" stop-opacity=".72"/><stop offset=".55" stop-color="#B7FF35" stop-opacity=".13"/><stop offset="1" stop-color="#CEFF5A" stop-opacity=".53"/></linearGradient>
+  <linearGradient id="visor" x1="475" y1="409" x2="648" y2="464" gradientUnits="userSpaceOnUse"><stop stop-color="#B8FF3B" stop-opacity=".05"/><stop offset=".5" stop-color="#C9FF42"/><stop offset="1" stop-color="#E3FF8B"/></linearGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="10"/></filter>
+  <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="26"/></filter>
+  <pattern id="micro" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M0 0h1v1H0z" fill="#C5FF56" opacity=".15"/></pattern>
+  <pattern id="vents" width="13" height="13" patternUnits="userSpaceOnUse"><path d="M2 3h9" stroke="#A5BEB0" opacity=".18" stroke-width="1"/></pattern>
+  <clipPath id="headClip"><path d="M367 181C402 131 480 116 535 151C591 181 609 242 615 301L623 356L653 407L683 458L647 482L642 542L615 588L615 627L577 676L522 711L439 691L379 624L339 548L321 425L332 289Z"/></clipPath>
+ </defs>
+ <ellipse cx="492" cy="467" rx="376" ry="457" fill="url(#halo)"/>
+ <ellipse cx="486" cy="479" rx="281" ry="350" stroke="#C7FF46" opacity=".16"/>
+ <ellipse cx="486" cy="479" rx="231" ry="294" stroke="#C7FF46" opacity=".11" stroke-dasharray="3 11"/>
+ <path d="M129 481H268M696 481H850M489 55V176M489 789V988" stroke="#BCFD41" stroke-opacity=".12"/>
+ <g opacity=".6"><path d="M139 319l68-25M752 297l71 26M209 754l-62 39M759 763l62 30" stroke="#C5FF4A" stroke-opacity=".22"/><circle cx="489" cy="480" r="405" stroke="#A1F44B" stroke-opacity=".12" stroke-dasharray="2 18"/></g>
+ <!-- a soft luminescent rim behind the head -->
+ <path d="M347 187C422 95 567 103 616 211C647 273 625 354 689 454C664 518 662 617 578 703" stroke="#C9FF52" stroke-width="18" opacity=".18" filter="url(#soft)"/>
+ <!-- lower torso and cybernetic shoulder plates -->
+ <path d="M396 688L324 768L237 814C178 849 158 921 147 1018H756C744 915 728 851 664 816L573 763L553 683Z" fill="#080E10" stroke="#68776B" stroke-width="2"/>
+ <path d="M388 711L328 791L262 819L244 1018H672L667 829L588 787L549 710Z" fill="url(#armor)"/>
+ <path d="M327 793L263 815Q197 845 178 933L160 1020H371L392 850Z" fill="#19272A" stroke="#526A61" stroke-width="2"/>
+ <path d="M583 795L663 828Q708 849 730 938L748 1020H551L541 856Z" fill="#192526" stroke="#567669" stroke-width="2"/>
+ <path d="M260 836L352 864L326 1019H222L203 944Z" fill="url(#armor)" stroke="#6F8677" stroke-width="1.5"/>
+ <path d="M659 844L575 865L604 1019H703L706 946Z" fill="url(#armor)" stroke="#718978" stroke-width="1.5"/>
+ <path d="M293 861L314 872M266 905L308 916M648 871L622 882M672 923L629 932" stroke="#CBFF54" stroke-opacity=".55" stroke-width="3"/>
+ <path d="M374 755L407 687L542 689L579 758L537 914L423 917Z" fill="url(#neck)" stroke="#819087" stroke-opacity=".65" stroke-width="2"/>
+ <path d="M414 707L453 741H506L539 701L533 822L513 857H438L417 825Z" fill="#0A1416" stroke="#60756C"/>
+ <path d="M441 736L468 757L495 758L517 740L512 799L498 822H451L438 800Z" fill="#22332E" stroke="#73867A"/>
+ <path d="M455 757L466 766L491 766L502 756M451 787H504M459 808H497" stroke="#C5FF48" stroke-opacity=".65" stroke-width="2"/>
+ <path d="M354 811L425 874L420 1019H358L344 883ZM581 811L534 872L538 1019H599L603 878Z" fill="#101C1D" stroke="#66776C" stroke-width="2"/>
+ <path d="M365 841L402 878L397 960M569 839L544 875L548 952" stroke="#BFFB50" stroke-opacity=".55" stroke-width="2"/>
+ <path d="M417 877L442 904H517L537 878L556 1019H390Z" fill="#080F12" stroke="#5E706B"/>
+ <path d="M444 930H514L521 944L513 957H445L437 944Z" fill="#AFEA49" opacity=".11"/>
+ <path d="M446 942H510" stroke="#D0FF65" stroke-width="3" opacity=".9"/>
+ <!-- outer cranium -->
+ <path d="M367 181C402 131 480 116 535 151C591 181 609 242 615 301L623 356L653 407L683 458L647 482L642 542L615 588L615 627L577 676L522 711L439 691L379 624L339 548L321 425L332 289Z" fill="url(#shell)" stroke="#8A9A8F" stroke-width="3"/>
+ <g clip-path="url(#headClip)">
+  <rect x="292" y="120" width="416" height="623" fill="url(#micro)" opacity=".32"/>
+  <path d="M360 192L433 157L530 148L573 177L599 246L554 287L471 260L397 282L338 266Z" fill="url(#forehead)" stroke="#73837D" stroke-width="2"/>
+  <path d="M432 157L441 230L475 266M528 150L511 237L555 283" stroke="#7E9184" opacity=".65" stroke-width="2"/>
+  <path d="M355 217L391 279L364 371L335 404L323 323Z" fill="#10191C" stroke="#6B807A" stroke-width="2"/>
+  <path d="M402 270L483 274L555 296L589 356L565 392L493 396L408 363L367 328Z" fill="#172426" stroke="#576A65" stroke-width="2"/>
+  <path d="M415 286L476 291L544 313L565 354L539 363L462 340L400 334Z" fill="#42534D" opacity=".5"/>
+  <path d="M409 358L494 376L578 386L628 407L651 448L617 468L603 535L559 620L512 678L436 658L376 589L356 490L369 415Z" fill="url(#face)" stroke="#64736E" stroke-width="2"/>
+  <path d="M488 377L570 389L616 418L648 457L622 464L603 527L574 558L517 561L486 508Z" fill="#31403B" opacity=".46"/>
+  <!-- segmented cheeks -->
+  <path d="M371 420L427 396L476 435L464 503L407 534L366 498Z" fill="url(#panel)" stroke="#899D8B" stroke-opacity=".65" stroke-width="2"/>
+  <path d="M406 538L472 518L516 559L506 640L447 653L393 608Z" fill="#162327" stroke="#687F72" stroke-width="2"/>
+  <path d="M483 521L542 546L571 589L535 648L512 652L511 566Z" fill="#1C2929" stroke="#64766B" stroke-width="2"/>
+  <path d="M415 421L449 443L435 481L406 488L390 464Z" fill="#344740"/>
+  <path d="M385 425L412 417M372 478L406 490M399 549L438 542M414 601L461 621" stroke="#B5F34B" stroke-opacity=".6" stroke-width="2"/>
+  <path d="M481 388L488 501L517 549M550 390L566 457L547 536" stroke="#97AB93" stroke-opacity=".7" stroke-width="2"/>
+  <!-- mask and mouth mechanisms -->
+  <path d="M514 566L572 555L609 531L612 590L575 650L529 678L504 646Z" fill="#121B1D" stroke="#819185" stroke-width="2"/>
+  <path d="M521 568L564 579L594 567L574 601L537 598Z" fill="#394A42" stroke="#779181"/>
+  <path d="M529 610L574 614L566 627L534 630Z" fill="#060D0F" stroke="#72877C"/>
+  <path d="M538 619H564" stroke="#BAFE42" stroke-width="2" opacity=".9"/>
+  <path d="M530 646L566 649L540 670Z" fill="#526056" opacity=".68"/>
+  <!-- nose structural frame -->
+  <path d="M577 377L602 409L628 432L649 452L622 466L603 460L592 447" fill="#303E37" stroke="#93A395" stroke-width="2"/>
+  <path d="M620 466L647 460L638 476L614 479Z" fill="#071113" stroke="#99BA80" stroke-width="2"/>
+  <!-- cheek vent -->
+  <path d="M450 545L485 538L499 570L492 604L466 607L449 588Z" fill="#070E10" stroke="#687F74"/>
+  <path d="M462 557L488 557M463 565L491 566M465 574L492 575M467 584L491 584" stroke="#C2F756" opacity=".5" stroke-width="2"/>
+  <!-- temple -->
+  <path d="M330 352L383 362L405 411L394 504L357 540L327 497Z" fill="#141F20" stroke="#8C9A87" stroke-width="2"/>
+  <circle cx="360" cy="451" r="59" fill="#071011" stroke="#879784" stroke-width="5"/>
+  <circle cx="360" cy="451" r="45" stroke="#D0FF66" stroke-opacity=".7" stroke-width="2"/>
+  <circle cx="360" cy="451" r="32" fill="#22332D" stroke="#647F72" stroke-width="2"/>
+  <circle cx="360" cy="451" r="17" fill="#C8FF51" opacity=".22"/>
+  <path d="M337 451H383M360 428V474" stroke="#C6FF4B" stroke-width="2"/>
+  <!-- brow and optic -->
+  <path d="M453 389L561 376L615 395L626 422L579 439L478 431L446 413Z" fill="#0B1518" stroke="#819383" stroke-width="2"/>
+  <path d="M471 408L565 394L604 405L575 423L483 425Z" fill="url(#visor)" opacity=".85"/>
+  <path d="M486 413L570 402L592 406L568 416L486 421Z" fill="#CEFF57" filter="url(#glow)" opacity=".8"/>
+  <path d="M481 412L572 398L596 408" stroke="#D8FF85" stroke-width="4" stroke-linecap="round"/>
+  <path d="M501 404L515 427M544 397L554 423" stroke="#0D2321" opacity=".9" stroke-width="3"/>
+  <!-- forehead circuit filaments -->
+  <path d="M427 189L452 222H487L519 249M556 199L533 242L559 276M389 259L423 274L432 304" stroke="#C3FF53" opacity=".47" stroke-width="2"/>
+  <circle cx="486" cy="222" r="3" fill="#C9FF4D"/><circle cx="558" cy="276" r="3" fill="#C9FF4D"/>
+  <path d="M361 307L390 326L403 364M588 305L600 346" stroke="#BFF656" stroke-opacity=".55" stroke-width="2"/>
+  <!-- nose/mouth circuitry -->
+  <path d="M581 473L570 513L585 541L613 533M559 624L574 637L568 654" stroke="#BDFF43" opacity=".58" stroke-width="2"/>
+  <path d="M351 517L389 567L403 627L440 666L514 697" stroke="#9CBE8A" opacity=".6" stroke-width="2"/>
+  <path d="M342 275L340 369M590 226L608 283" stroke="#E1FBDD" stroke-opacity=".35" stroke-width="4"/>
+ </g>
+ <!-- crisp external contour lighting -->
+ <path d="M369 181C415 133 487 122 540 154M608 264L623 355L657 418L684 456L644 486L643 539" stroke="url(#edge)" stroke-width="3" stroke-linecap="round"/>
+ <path d="M615 586L614 631L579 679L521 714M338 551L379 624L439 691" stroke="#BEFA4B" stroke-opacity=".46" stroke-width="2"/>
+ <path d="M412 149L460 142" stroke="#E6FFE2" stroke-opacity=".6" stroke-width="3"/>
+ <!-- index markings -->
+ <g font-family="monospace" fill="#D1FF6A" font-size="12" letter-spacing="2"><text x="243" y="293">N-01</text><text x="688" y="391">X/404</text><text x="693" y="663">SYNTHETIC</text></g>
+ <path d="M278 298L329 317M698 397L643 414M690 670L606 627" stroke="#C8FB57" stroke-opacity=".5" stroke-width="1"/>
+ <g fill="#C6FE55"><circle cx="278" cy="298" r="3"/><circle cx="698" cy="397" r="3"/><circle cx="690" cy="670" r="3"/></g>
+</svg>
